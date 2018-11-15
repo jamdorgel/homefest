@@ -1,0 +1,28 @@
+ <script type="text/javascript">
+  function idleTimer() {
+    var t;
+    window.onload = resetTimer;
+    window.onmousemove = resetTimer;
+    window.ontouchstart = resetTimer;
+    window.onmousedown = resetTimer; // catches touchscreen presses
+    window.onclick = resetTimer;     // catches touchpad clicks
+    window.onscroll = resetTimer;    // catches scrolling with arrow keys
+    window.onkeypress = resetTimer;
+    document.onload = resetTimer;
+
+    function logout() {
+     if (window.location==="./index.html") {
+    	resetTimer();
+     } else {
+   		window.location = "./index.html";
+      	resetTimer();
+      }
+    }
+
+    function resetTimer() {
+        clearTimeout(t);
+        t = setTimeout(logout, 2*60*1000);  // time is in milliseconds
+    }
+}
+idleTimer();
+</script>

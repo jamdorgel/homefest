@@ -1,0 +1,850 @@
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css" media="all"/>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="assets/libs/fontawesome/css/font-awesome.min.css" media="all"/>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="assets/libs/maginificpopup/magnific-popup.css" media="all"/>
+
+    <!-- Time Circle -->
+    <link rel="stylesheet" href="assets/libs/timer/TimeCircles.css" media="all"/>
+
+    <!-- OWL CAROUSEL CSS -->
+    <link rel="stylesheet" href="assets/libs/owlcarousel/owl.carousel.min.css" media="all" />
+    <link rel="stylesheet" href="assets/libs/owlcarousel/owl.theme.default.min.css" media="all" />
+
+    <!-- GOOGLE FONT -->
+    <!-- <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Oswald:400,700%7cLora:400,400i,700,700i"/> -->
+          <link rel="stylesheet" type="text/css" href="fonts/family.css"/>
+
+    <link rel="stylesheet" href="assets/libs/animate/animate.css" media="all" />
+
+    <!-- MASTER  STYLESHEET  -->
+    <link id="lgx-master-style" rel="stylesheet" href="assets/css/style-default.css" media="all"/>
+
+    <!-- MODERNIZER CSS  -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+
+<style>
+.line-separator{
+
+height:20px;
+background:#ef4038;
+
+border-bottom:8px solid #ef4038;
+
+
+}
+.logo{
+background:white;
+}
+a{
+color: red;
+}
+a:hover {
+    color: black;
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 70%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+</style>
+</head>
+
+<body style="
+    background: #f1efef;
+">
+<!-- 
+  - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
+  WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+   <video id="bgvid" playsinline autoplay muted loop>
+  <source src="imgs/kit.mp4">
+  </video>
+<section class="container py-4" style="color:black;">
+    <section>
+        <div id="lgx-schedule" class="lgx-schedule">
+            <div class="lgx-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="lgx-heading-area">
+                                <h2 class="lgx-heading" style="color: black;">
+                                    <span class="back-heading" style="color: black;"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                                    <span class="heading" style="color: black;">LIVE KITCHEN</span><br>
+                                    <span class="heading" style="color: black; margin-top: 35px; z-index: -1;">SCHEDULE</span>
+                                </h2>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="lgx-tab">
+                                <ul class="nav nav-pills text-center">
+                                        <li class="active"><a data-toggle="pill" href="#day1">
+                                                <h3>Day <span>01</span></h3>
+                                                <p><span>2 </span>November, 2018 </p>
+                                            </a></li>
+                                 
+                                    <a href="#day2"></a><li><a data-toggle="pill" href="#day2"><h3>Day <span>02</span></h3> <p><span>3 </span>November, 2018</p></a></li>
+                                    <li><a data-toggle="pill" href="#day3"><h3>Day <span>03</span></h3> <p><span>4 </span>November, 2018</p></a></li></a>
+                                    <li><a data-toggle="pill" href="#speakers"><h3>Speakers <span></span></h3> <p><span> </span>November, 2018</p></a></li>
+
+                                  
+                                </ul>
+                                <div class="tab-content lgx-tab-content text-center">
+                                    <div id="day1" class="tab-pane fade in active">
+                                        <div class="lgx-single-tab">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">12:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Presented by Birnie Home Safe</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Kitchen Overload with Micheal Neumann</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">1:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+													<div class="author-info">
+                                                        <h4 class="time">Glen Peloso</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Five Steps To Fabulous Design</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">2:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Chef Devan Rajkumar</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">World Inspired Recipes</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">3:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Presented by Liaison College</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Gnocci and Lamb Ragu with Chef Tony Way</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">4:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Chef Eyal Liebman & Sommelier Rebecca Meir Liebman</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Foor and Wine Pairing 101</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">5:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Presented by Liaison College</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Fall Flavours with Pork Belly with Chef Tony Way</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+                                                    <div class="">
+                                                        <div class="row">
+
+
+                             
+                                            </div>  <!-- row 1-->
+                                        </div> <!-- ends  day 1-->
+										
+										
+										</div>
+                                        
+                                         <!-- here is day 2-->
+										<div id="day2" class="tab-pane fade in">
+										   <div class="lgx-single-tab">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">11:30 <span>Am</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Presented by Birnie Home Safe</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Kitchen Overload with Frank Cohn & Michael Neumann</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">12:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Glen Peloso</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Five Steps To Fabulous Design</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">1:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Afrim Pristine</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">For the Love of Cheese</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">2:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Chef David Wolfman</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Cooking with the Wolfman</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">3:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Chef Rob Rainford</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">It's All About the Grill</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">4:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Chef Eyal Liebman & Sommelier Rebecca Meir Liebman</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Foor and Wine Pairing 101</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">5:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Presented by Liaison College</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Saturday Night Seafood Paella with Chef Tony Way<h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+                                        </div> <!-- ends  day 2-->
+										</div>
+                                       
+                                        <div id="day3" class="tab-pane fade in">
+										   <div class="lgx-single-tab">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">11:30 <span>Am</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Presented by Birnie Home Safe</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Kitchen Overload with Frank Cohn & Michael Neumann</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">12:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Chef David Wolfman</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Cooking with the Wolfman</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">1:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Chef Matt Basile</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Brunch Life</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">2:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Presented by Liaison College</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Sunday Brunch with Chef Tony Way</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">3:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Glen Peloso</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Five Steps to Fabulous Design</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <h4 class="time">4:00 <span>Pm</span></h4>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Presented by Liaison College</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Sunday Dinner with Chef Tony Way</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											
+									
+										</div> <!--END DAY 3-->
+                                        
+
+
+                                        <!--SPEAKERS BEGIN-->
+                                    
+										<div id="speakers" class="tab-pane fade in">
+										   <div class="lgx-single-tab">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <img src="./imgs/speaker1.jpg">
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Chef Devan Rajkumar</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">World Inspired Recipes</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <img src="./imgs/speaker2.jpg">
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Chef David Wolfman</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Cooking with the Wolfman</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <img src="./imgs/speaker3.jpg">
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Afrim Pristine</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">For the Love of Cheese</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <img src="./imgs/speaker4.jpg">
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Chef Rob Rainford</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">It’s All About the Grill</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <img src="./imgs/speaker5.jpg">
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Chef Matt Basile</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Living Your Best Brunch Life</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <img src="./imgs/speaker6.jpg">
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Chef Eyal Liebman & <br>Sommelier Rebecca Meir Liebman</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Foor and Wine Pairing 101</h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+											<div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <img src="./imgs/speaker7.jpg">
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Frank Cohn & Michael Neumann</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Kitchen Overload<h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+
+                                            <div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <img src="./imgs/speaker8.jpg">
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Glen Peloso</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Five Steps to a Fabulous Design<h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+
+                                            <div class="lgx-single-tab">
+											<div class="row">
+                                                <div class="col-xs-12 col-sm-2">
+                                                    <div class="time-area">
+                                                        <img src="./imgs/speaker9.jpg">
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12 col-sm-2">
+                                                    <div class="author-info">
+                                                        <h4 class="time">Chef Tony Way</h4>
+                                                    </div>
+												
+                                                </div>
+                             
+                                                <div class="col-xs-12 col-sm-7">
+                                                    <div class="schedule-info">
+                                                        <h3 class="title">Fall Recipes and Sunday Meals<h3>
+                                                        
+                                                    </div>
+                                                    <!--//.single tab-->
+                                                </div>
+                                            </div>  <!-- row 1-->
+											</div>
+										</div>
+                                       <!--SPEAKERS END-->
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end here -->
+                    <!--//.ROW-->
+                </div>
+                <!-- //.CONTAINER -->
+            </div>
+            <!-- //.INNER -->
+        </div>
+    </section>
+	
+
+
+<!--//.LGX SITE CONTAINER-->
+<!-- *** ADD YOUR SITE SCRIPT HERE *** -->
+<!-- JQUERY  -->
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+<!-- BOOTSTRAP JS  -->
+<script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+
+
+<script src="assets/libs/jquery.smooth-scroll.js"></script>
+
+<!-- SKILLS SCRIPT  -->
+<script src="assets/libs/jquery.validate.js"></script>
+
+<!-- adding magnific popup js library -->
+<script type="text/javascript" src="assets/libs/maginificpopup/jquery.magnific-popup.min.js"></script>
+
+<!-- Owl Carousel  -->
+<script src="assets/libs/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- COUNTDOWN   -->
+<script src="assets/libs/countdown.js"></script>
+<script src="assets/libs/timer/TimeCircles.js"></script>
+
+<!-- SMOTH SCROLL -->
+<script src="assets/libs/jquery.smooth-scroll.min.js"></script>
+<script src="assets/libs/jquery.easing.min.js"></script>
+
+<!-- type js -->
+<script src="assets/libs/typed/typed.min.js"></script>
+
+<!-- CUSTOM SCRIPT  -->
+<script src="assets/js/custom.script.js"></script>
+
+</body>
+</html>

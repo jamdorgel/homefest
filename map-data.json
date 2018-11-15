@@ -1,0 +1,1429 @@
+{
+  "mapwidth": "2000",
+  "mapheight": "2000",
+  "categories": [
+    {
+      "id": "vendors",
+      "title": "Vendors",
+      "color": "#4cd3b8",
+      "show": "true"
+    }
+  ],
+  "levels": [
+    {
+      "id": "floor",
+      "title": "show floor",
+      "map":"maps/homefestmap.svg",
+      "locations": [
+      
+        {
+          "id": "1",
+          "title": "@pa.t.rick Fine Art",
+          "description": "This is booth 700.",
+          "category": "vendors",
+          "x": "0.7557",
+          "y": "0.5227",
+        "pin": "pin-dot" 
+        },
+        {
+          "id": "2",
+          "title": "A Cut Above Meats",
+          "description": "This is booth 262.",
+          "category": "vendors",
+          "x": "0.2520",
+          "y": "0.3022"
+        ,         "pin": "pin-dot" 
+        },
+        {
+          "id": "3",
+          "title": "Access Entry Systems",
+          "description": "This is booth 521.",
+          "category": "vendors",
+          "x": "0.5700",
+          "y": "0.4107"
+        ,         "pin": "pin-dot" },
+        {
+          "id": "4",
+          "title": "ADL Accessible Daily Living",
+          "description": "This is booth 335.",
+          "category": "vendors",
+          "x": "0.4707",
+          "y": "0.3201"
+        ,         "pin": "pin-dot" },
+        {
+          "id": "5",
+          "title": "ADT Security Services Canada, Inc.",
+          "description": "This is booth 243.",
+          "category": "vendors",
+          "x": "0.3996",
+          "y": "0.2741"
+        ,         "pin": "pin-dot" },
+        {
+          "id": "6",
+          "title": "Aeroseal GTA Inc.",
+          "description": "This is booth 119.",
+          "category": "vendors",
+          "x": "0.6166",
+          "y": "0.2277"
+        ,         "pin": "pin-dot" },
+        {
+          "id": "7",
+          "title": "Aerus,Original Manufacturer of Electrolux Vacuums",
+          "description": "This is booth 425.",
+          "category": "vendors",
+          "x": "0.5410",
+          "y": "0.3657"
+        ,         "pin": "pin-dot" },
+        {
+          "id": "8",
+          "title": "Ai Living",
+          "description": "This is booth 642.",
+          "category": "vendors",
+          "x": "0.4006",
+          "y": "0.4963"
+        ,         "pin": "pin-dot" },
+        {
+          "id": "9",
+          "title": "Air Quality Dunrite",
+          "description": "This is booth 721.",
+          "category": "vendors",
+          "x": "0.5631",
+          "y": "0.5033"
+        ,         "pin": "pin-dot" },
+        {
+          "id": "10",
+          "title": "AKTAS FLOORS INC.",
+          "description": "This is booth 613.",
+          "category": "vendors",
+          "x": "0.6391",
+          "y": "0.4552"
+        ,         "pin": "pin-dot" },
+        {
+          "id": "11",
+          "title": "AKTAS FLOORS INC.",
+          "description": "This is booth 117.",
+          "category": "vendors",
+          "x": "0.7557",
+          "y": "0.5227"
+        ,         "pin": "pin-dot" },
+        {
+          "id": "12",
+          "title": "Alma Windows and Doors",
+          "description": "This is booth 301.",
+          "category": "vendors",
+          "x": "0.2520",
+          "y": "0.3022"
+        ,         "pin": "pin-dot" },
+        {
+          "id": "13",
+          "title": "Amaircare/Air Wash",
+          "description": "This is booth 244.",
+          "category": "vendors",
+          "x": "0.0000",
+          "y": "0.0000"
+        ,         "pin": "pin-dot" },
+        {
+          "id": "14",
+          "title": "Amana Garage Doors",
+          "description": "This is booth 650.",
+          "category": "vendors",
+          "x": "0.4707",
+          "y": "0.3201"
+        ,         "pin": "pin-dot" },
+        {
+          "id": "15",
+          "title": "Andros Kitchen & Bath Designs",
+          "description": "This is booth 408.",
+          "category": "vendors",
+          "x": "0.3996",
+          "y": "0.2741"
+        ,         "pin": "pin-dot" },
+          {"id": "16",
+            "title": "ARC-MAX Wrought Iron International Inc.",
+            "description": "This is booth 247.",          
+            "category": "vendors",          
+            "x": "0.3777",          
+            "y": "0.2724",         "pin": "pin-dot" },
+          {"id": "17",
+            "title": "The Art of Renovation",          
+            "description": "This is booth 654.",          
+            "category": "vendors",          
+            "x": "0.3054",          
+            "y": "0.4860",         "pin": "pin-dot" },
+          {"id": "18",
+            "title": "Aurora Experience Inc",          
+            "description": "This is booth 624.",          
+            "category": "vendors",          
+            "x": "0.5482",          
+            "y": "0.4860",         "pin": "pin-dot" },
+          {"id": "19",
+            "title": "Aussie Made Kitchen Gadgets Canada",          
+            "description": "This is booth 755.",          
+            "category": "vendors",          
+            "x": "0.3067",          
+            "y": "0.5018",         "pin": "pin-dot" },
+          {"id": "20",
+            "title": "Awning Authority",          
+            "description": "This is booth 718.",          
+            "category": "vendors",          
+            "x": "0.6038",          
+            "y": "0.5311",         "pin": "pin-dot" },
+          {"id": "21",
+            "title": "Bath Fitter ",          
+            "description": "This is booth 702.",          
+            "category": "vendors",          
+            "x": "0.7231",          
+            "y": "0.5314",         "pin": "pin-dot" },
+          {"id": "22",
+            "title": "Bell Canada",          
+            "description": "This is booth 828.",          
+            "category": "vendors",          
+            "x": "0.7678",          
+            "y": "0.4539",         "pin": "pin-dot" },
+          {"id": "23",
+            "title": "Belle River Candles",          
+            "description": "This is booth 151.",          
+            "category": "vendors",          
+            "x": "0.3602",          
+            "y": "0.2251",         "pin": "pin-dot" },
+          {"id": "24",
+            "title": "Bertino Kitchens",          
+            "description": "This is booth 420.",          
+            "category": "vendors",          
+            "x": "0.5699",          
+            "y": "0.3943",         "pin": "pin-dot" },
+          {"id": "25",
+            "title": "Better Contracting Services",         
+            "description": "This is booth 224.",          
+            "category": "vendors",          
+            "x": "0.5497",         
+            "y": "0.3109",         "pin": "pin-dot" },
+          {"id": "26",
+            "title": "Birnie Home Safe",          
+            "description": "This is booth 546.",          
+            "category": "vendors",          
+            "x": "0.3755",          
+            "y": "0.4392",         "pin": "pin-dot" },
+          {"id": "27",
+            "title": "BKB Renovations",          
+            "description": "This is booth 347.",          
+            "category": "vendors",          
+            "x": "0.3800",          
+            "y": "0.3184",         "pin": "pin-dot" },
+          {"id": "28",
+            "title": "Brian Greer's Tin Ceiling and Walls",          
+            "description": "This is booth 804.",          
+            "category": "vendors",          
+            "x": "0.7685",          
+            "y": "0.2885",         "pin": "pin-dot" },
+          {"id": "29",
+            "title": "Cadillac Window Fashions",          
+            "description": "This is booth 632.",          
+            "category": "vendors",          
+            "x": "0.4848",          
+            "y": "0.4856",         "pin": "pin-dot" },
+          {"id": "30",
+            "title": "CADK",          
+            "description": "This is booth 120.",          
+            "category": "vendors",          
+            "x": "0.5695",          
+            "y": "0.2643",         "pin": "pin-dot" },
+          {"id": "31",
+            "title": "Cambria",          
+            "description": "This is booth 608.",          
+            "category": "vendors",          
+            "x": "0.6648",          
+            "y": "0.4854",         "pin": "pin-dot" },
+          {"id": "32",
+            "title": "Canada's Home Renovation Depot",          
+            "description": "This is booth 706.",          
+            "category": "vendors",          
+            "x": "0.6996",          
+            "y": "0.5309",         "pin": "pin-dot" },
+          {"id": "33",
+            "title": "Canadian Security Professionals",          
+            "description": "This is booth 633.",          
+            "category": "vendors",          
+            "x": "0.4856",          
+            "y": "0.4550",         "pin": "pin-dot" },
+          {"id": "34",
+            "title": "Canadian Transplant Society",          
+            "description": "This is booth 757.",          
+            "category": "vendors",          
+            "x": "0.2930",          
+            "y": "0.5012",         "pin": "pin-dot" },
+          {"id": "35",
+            "title": "Casa Concepts Inc",          
+            "description": "This is booth 615.",          
+            "category": "vendors",          
+            "x": "0.6231",          
+            "y": "0.4583",         "pin": "pin-dot" },
+          {"id": "36",
+            "title": "Casati Heating & Air Conditioning",          
+            "description": "This is booth 433.",          
+            "category": "vendors",          
+            "x": "0.4787",          
+            "y": "0.3639",         "pin": "pin-dot" },
+          {"id": "37",
+            "title": "CCS Construction Group Inc.",          
+            "description": "This is booth 536.",          
+            "category": "vendors",          
+            "x": "0.4436",          
+            "y": "0.4398",         "pin": "pin-dot" },
+          {"id": "38",
+            "title": "Clara Clark Canada",          
+            "description": "This is booth 256.",          
+            "category": "vendors",          
+            "x": "0.2992",          
+            "y": "0.3032",         "pin": "pin-dot" },
+          {"id": "39",
+            "title": "Closets by Design",          
+            "description": "This is booth 424.",          
+            "category": "vendors",          
+            "x": "0.5463",         
+            "y": "0.3947",         "pin": "pin-dot" },
+          {"id": "40",
+            "title": "Comfort Corner Corporation",          
+            "description": "This is booth 750.",          
+            "category": "vendors",          
+            "x": "0.3468",          
+            "y": "0.5321",         "pin": "pin-dot" },
+          {"id": "41",
+            "title": "Comfort Masters",          
+            "description": "This is booth 508.",          
+            "category": "vendors",          
+            "x": "0.6719",          
+            "y": "0.4462",         "pin": "pin-dot" },
+          {"id": "42",
+            "title": "Complete Home Construction",          
+            "description": "This is booth 635.",          
+            "category": "vendors",          
+            "x": "0.4669",          
+            "y": "0.4527",         "pin": "pin-dot" },
+          {"id": "43",
+            "title": "Constant Home Comfort Heating & Cooling",          
+            "description": "This is booth 129.",          
+            "category": "vendors",          
+            "x": "0.5384",          
+            "y": "0.2266",         "pin": "pin-dot" },
+          {"id": "44",
+            "title": "Corrente Construction Management Inc.",          
+            "description": "This is booth 228.",          
+            "category": "vendors",          
+            "x": "0.5101",         
+            "y": "0.3019",         "pin": "pin-dot" },
+          {"id": "45",
+            "title": "Costco",          
+            "description": "This is booth 324.",          
+            "category": "vendors",          
+            "x": "0.5394",          
+            "y": "0.3477",         "pin": "pin-dot" },
+          {"id": "46",
+            "title": "Counter Measures Kitchens Design Studio/Oro-Interi",          
+            "description": "This is booth 550.",          
+            "category": "vendors",          
+            "x": "0.3448",          
+            "y": "0.4400",         "pin": "pin-dot" },
+          {"id": "47",
+            "title": "Discount Door Hardware.ca",          
+            "description": "This is booth 212.",          
+            "category": "vendors",          
+            "x": "0.6406",          
+            "y": "0.3021",         "pin": "pin-dot" },
+          {"id": "48",
+            "title": "Dolphin Pools & BBQ",          
+            "description": "This is booth 208.",          
+            "category": "vendors",          
+            "x": "0.6644",          
+            "y": "0.3080",         "pin": "pin-dot" },
+          {"id": "49",
+            "title": "Dove Renovation Construction Ltd.",          
+            "description": "This is booth 511.",          
+            "category": "vendors",          
+            "x": "0.6714",          
+            "y": "0.4125",         "pin": "pin-dot" },
+          {"id": "50",
+            "title": "DR - HO'S",          
+            "description": "This is booth 160.",          
+            "category": "vendors",          
+            "x": "0.2684",          
+            "y": "0.2554",         "pin": "pin-dot" },
+          {"id": "51",
+            "title": "DUCA Financial Services Credit Union Ltd.",          
+            "description": "This is booth 255.",          
+            "category": "vendors",          
+            "x": "0.3145",          
+            "y": "0.2721",         "pin": "pin-dot" },
+          {"id": "52",
+            "title": "Edward Jones",          
+            "description": "This is booth 328.",          
+            "category": "vendors",          
+            "x": "0.5071",          
+            "y": "0.3492",         "pin": "pin-dot" },
+          {"id": "53",
+            "title": "Elegant Home Services",          
+            "description": "This is booth 631.",          
+            "category": "vendors",          
+            "x": "0.5022",
+            "y": "0.4566"
+          ,         "pin": "pin-dot" },
+          {"id": "54",
+            "title": "Elna Press",          
+            "description": "This is booth 343.",          
+            "category": "vendors",          
+            "x": "0.4041",          
+            "y": "0.3170",         "pin": "pin-dot" },
+          {"id": "55",
+            "title": "Enrich it Woodworks Inc.",          
+            "description": "This is booth 531.",          
+            "category": "vendors",          
+            "x": "0.5030",          
+            "y": "0.4099",         "pin": "pin-dot" },
+          {"id": "56",
+            "title": "Esther Group Inc.",          
+            "description": "This is booth 361.",          
+            "category": "vendors",          
+            "x": "0.2669",          
+            "y": "0.3187",         "pin": "pin-dot" },
+          {"id": "57",
+            "title": "Four Season Comfort Heating & Cooling",          
+            "description": "This is booth 337.",          
+            "category": "vendors",          
+            "x": "0.4506",          
+            "y": "0.3185",         "pin": "pin-dot" },
+          {"id": "58",
+            "title": "Gemini Design Build / Home Renovation",          
+            "description": "This is booth 330.",          
+            "category": "vendors",          
+            "x": "0.4967",          
+            "y": "0.3483",         "pin": "pin-dot" },
+          {"id": "59",
+            "title": "GGC Ltd.",          
+            "description": "This is booth 326.",          
+            "category": "vendors",          
+            "x": "0.5265",          
+            "y": "0.3463",         "pin": "pin-dot" },
+          {"id": "60",
+            "title": "Glacier Spas Canada Inc.",          
+            "description": "This is booth 270.",          
+            "category": "vendors",          
+            "x": "0.2049",          
+            "y": "0.3007",         "pin": "pin-dot" },
+          {"id": "61",
+            "title": "The Good Tile",          
+            "description": "This is booth 708.",          
+            "category": "vendors",          
+            "x": "0.6857",          
+            "y": "0.5311",         "pin": "pin-dot" },
+          {"id": "62",
+            "title": "Gotcha Covered Mississauga",          
+            "description": "This is booth 528.",          
+            "category": "vendors",          
+            "x": "0.5169",          
+            "y": "0.4403",         "pin": "pin-dot" },
+          {"id": "63",
+            "title": "Great Northern Insulation",          
+            "description": "This is booth 637.",          
+            "category": "vendors",          
+            "x": "0.4422",          
+            "y": "0.4555",         "pin": "pin-dot" },
+          {"id": "64",
+            "title": "Grinyer Interior Doors & Closets",          
+            "description": "This is booth 812.",          
+            "category": "vendors",          
+            "x": "0.7670",          
+            "y": "0.3388",         "pin": "pin-dot" },
+          {"id": "65",
+            "title": "GTA General Contractors, Ltd.",          
+            "description": "This is booth 315.",          
+            "category": "vendors",          
+            "x": "0.6185",          
+            "y": "0.3221",         "pin": "pin-dot" },
+          {"id": "66",
+            "title": "Gutter Depot",          
+            "description": "This is booth 231.",          
+            "category": "vendors",          
+            "x": "0.4754",          
+            "y": "0.2749",         "pin": "pin-dot" },
+          {"id": "67",
+            "title": "Gutter Depot",          
+            "description": "This is booth 242.",          
+            "category": "vendors",          
+            "x": "0.4081",          
+            "y": "0.3056",         "pin": "pin-dot" },
+          {"id": "68",
+            "title": "H2TO Water Treatment",          
+            "description": "This is booth 429.",          
+            "category": "vendors",          
+            "x": "0.5164",          
+            "y": "0.3662",         "pin": "pin-dot" },
+          {"id": "69",
+            "title": "HanStone Canada",          
+            "description": "This is booth 360.",          
+            "category": "vendors",          
+            "x": "0.2531",         
+            "y": "0.3537",         "pin": "pin-dot" },
+          {"id": "70",
+            "title": "Happy Bees Apiary",          
+            "description": "This is booth 137.",          
+            "category": "vendors",          
+            "x": "0.4678",          
+            "y": "0.2254",         "pin": "pin-dot" },
+          {"id": "71",
+            "title": "Harmony Basements Corp.",          
+            "description": "This is booth 824.",          
+            "category": "vendors",          
+            "x": "0.7689",          
+            "y": "0.4204",         "pin": "pin-dot" },
+          {"id": "72",
+            "title": "Healthy Home Makeovers",          
+            "description": "This is booth 738.",          
+            "category": "vendors",          
+            "x": "0.4406",          
+            "y": "0.5309",         "pin": "pin-dot" },
+          {"id": "73",
+            "title": "HelloFresh ",          
+            "description": "This is booth 253.",          
+            "category": "vendors",          
+            "x": "0.3300",          
+            "y": "0.2726"
+          ,         "pin": "pin-dot" },
+          {"id": "74",
+            "title": "Herriot Kitchen Design",          
+            "description": "This is booth 353.",          
+            "category": "vendors",          
+            "x": "0.3309",          
+            "y": "0.3190",         "pin": "pin-dot" },
+          {"id": "75",
+            "title": "Hidden Bed Factory",          
+            "description": "This is booth 320.",          
+            "category": "vendors",          
+            "x": "0.5717",          
+            "y": "0.3487",         "pin": "pin-dot" },
+          {"id": "76",
+            "title": "HomeReno Direct",          
+            "description": "This is booth 421.",          
+            "category": "vendors",          
+            "x": "0.5731",          
+            "y": "0.3637",         "pin": "pin-dot" },
+          {"id": "77",
+            "title": "House Tune Up Inc.",          
+            "description": "This is booth 345.",          
+            "category": "vendors",          
+            "x": "0.4125",          
+            "y": "0.3190",         "pin": "pin-dot" },
+          {"id": "78",
+            "title": "Inner Soul Art",          
+            "description": "This is booth 513.",          
+            "category": "vendors",          
+            "x": "0.6403",          
+            "y": "0.4597",         "pin": "pin-dot" },
+          {"id": "79",
+            "title": "The Innocent Baker",          
+            "description": "This is booth 808.",          
+            "category": "vendors",          
+            "x": "0.7681",          
+            "y": "0.3093",         "pin": "pin-dot" },
+          {"id": "80",
+            "title": "Interlock Metal Roofs",          
+            "description": "This is booth 426.",          
+            "category": "vendors",          
+            "x": "0.5329",          
+            "y": "0.3948",         "pin": "pin-dot" },
+          {"id": "81",
+            "title": "Interlock Metal Roofs",          
+            "description": "This is booth 527.",          
+            "category": "vendors",          
+            "x": "0.5338",          
+            "y": "0.4122",         "pin": "pin-dot" },
+          {"id": "82",
+            "title": "IQ Technologies",          
+            "description": "This is booth 130.",          
+            "category": "vendors",          
+            "x": "0.5324",          
+            "y": "0.2545",         "pin": "pin-dot" },
+          {"id": "83",
+            "title": "IQ Technologies",          
+            "description": "This is booth 751.",          
+            "category": "vendors",          
+            "x": "0.3454",          
+            "y": "0.5020",         "pin": "pin-dot" },
+          {"id": "84",
+            "title": "Island Grove Woodwork",          
+            "description": "This is booth 214.",          
+            "category": "vendors",          
+            "x": "0.6170",          
+            "y": "0.3028",         "pin": "pin-dot" },
+          {"id": "85",
+            "title": "iSun Energy",          
+            "description": "This is booth 628.",          
+            "category": "vendors",          
+            "x": "0.5180",          
+            "y": "0.4857",         "pin": "pin-dot" },
+          {"id": "86",
+            "title": "J.A.Y. Holdings Inc.",          
+            "description": "This is booth 152.",          
+            "category": "vendors",          
+            "x": "0.3294",          
+            "y": "0.2577",         "pin": "pin-dot" },
+          {"id": "87",
+            "title": "Jogi's Import and Design, Inc.",          
+            "description": "This is booth 656.",          
+            "category": "vendors",        
+            "x": "0.2938",          
+            "y": "0.4824",         "pin": "pin-dot" },
+          {"id": "88",
+            "title": "KARE Joy of Living",          
+            "description": "This is booth 402.",          
+            "category": "vendors",          
+            "x": "0.7094",          
+            "y": "0.3946",         "pin": "pin-dot" },
+          {"id": "89",
+            "title": "Kitchen Crafters",          
+            "description": "This is booth 800.",          
+            "category": "vendors",          
+            "x": "0.7671",          
+            "y": "0.2579",         "pin": "pin-dot" },
+          {"id": "90",
+            "title": "Knotty's Woodwork Inc.",          
+            "description": "This is booth 414.",          
+            "category": "vendors",          
+            "x": "0.6144",          
+            "y": "0.3935",         "pin": "pin-dot" },
+          {"id": "91",
+            "title": "Kolani Kitchen & Bath",          
+            "description": "This is booth 709.",          
+            "category": "vendors",          
+            "x": "0.6663",         
+            "y": "0.5027",         "pin": "pin-dot" },
+          {"id": "92",
+            "title": "Kremer Blinds",          
+            "description": "This is booth 313.",          
+            "category": "vendors",          
+            "x": "0.6405",          
+            "y": "0.3182",         "pin": "pin-dot" },
+            {
+              "id": "93",
+              "title": "Lampeberger - Mom's Time Out",
+              "description": "Booth #139",
+              "category": "vendors",
+              "x": "0.4510",
+              "y": "0.2267"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "94",
+              "title": "Lampert Renovations, Bath Liners and Plumbing",
+              "description": "Booth #329",
+              "category": "vendors",
+              "x": "0.5127",
+              "y": "0.3200"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "95",
+              "title": "Lampsity",
+              "description": "Booth #748",
+              "category": "vendors",
+              "x": "0.3610",
+              "y": "0.5350"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "96",
+              "title": "LeafFilter Gutter Protection",
+              "description": "Booth #351",
+              "category": "vendors",
+              "x": "0.3460",
+              "y": "0.3200"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "97",
+              "title": "Leed Construction Ltd.",
+              "description": "Booth #747",
+              "category": "vendors",
+              "x": "0.3760",
+              "y": "0.5067"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "98",
+              "title": "Leon's vendors",
+              "description": "Booth #308",
+              "category": "vendors",
+              "x": "0.6360",
+              "y": "0.3600"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "99",
+              "title": "London Eco-Roof Manufacturing Inc.",
+              "description": "Booth #246",
+              "category": "vendors",
+              "x": "0.3760",
+              "y": "0.3033"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "100",
+              "title": "Los Delfines CR INC.",
+              "description": "Booth #144",
+              "category": "vendors",
+              "x": "0.3927",
+              "y": "0.2583"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "101",
+              "title": "LuxeCubes",
+              "description": "Booth #225",
+              "category": "vendors",
+              "x": "0.5193",
+              "y": "0.2767"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "102",
+              "title": "Luxurious Beds and Linens Ltd.",
+              "description": "Booth #432",
+              "category": "vendors",
+              "x": "0.4777",
+              "y": "0.4050"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "103",
+              "title": "M1 Modular Storage",
+              "description": "Booth #515",
+              "category": "vendors",
+              "x": "0.6160",
+              "y": "0.4150"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "104",
+              "title": "Made Good",
+              "description": "Booth #150",
+              "category": "vendors",
+              "x": "0.3477",
+              "y": "0.2600"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "105",
+              "title": "Made in the Shade Toronto West",
+              "description": "Booth #357",
+              "category": "vendors",
+              "x": "0.2977",
+              "y": "0.3200"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "106",
+              "title": "MadMatters",
+              "description": "Booth #261",
+              "category": "vendors",
+              "x": "0.2677",
+              "y": "0.2733"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "107",
+              "title": "Magic Window Innovations",
+              "description": "Booth #232",
+              "category": "vendors",
+              "x": "0.4627",
+              "y": "0.3017"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "108",
+              "title": "Major Move",
+              "description": "Booth #431",
+              "category": "vendors",
+              "x": "0.4993",
+              "y": "0.3667"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "109",
+              "title": "Manara Services",
+              "description": "Booth #430",
+              "category": "vendors",
+              "x": "0.5027",
+              "y": "0.3967"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "110",
+              "title": "Mortgage Brokers of Canada",
+              "description": "Booth #735",
+              "category": "vendors",
+              "x": "0.4710",
+              "y": "0.5067"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "111",
+              "title": "Mr.  Drywall",
+              "description": "Booth #525",
+              "category": "vendors",
+              "x": "0.5477",
+              "y": "0.4133"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "112",
+              "title": "Mr. Landscape",
+              "description": "Booth #733",
+              "category": "vendors",
+              "x": "0.4877",
+              "y": "0.5050"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "113",
+              "title": "MyOlive Premium Olive Oil",
+              "description": "Booth #147",
+              "category": "vendors",
+              "x": "0.3910",
+              "y": "0.2300"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "114",
+              "title": "New Amherst Window Fashions",
+              "description": "Booth #612",
+              "category": "vendors",
+              "x": "0.6427",
+              "y": "0.4867"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "115",
+              "title": "Njoi Trujillo Beach Residences",
+              "description": "Booth #740",
+              "category": "vendors",
+              "x": "0.4243",
+              "y": "0.5367"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "116",
+              "title": "NT Home Service Inc.",
+              "description": "Booth #651",
+              "category": "vendors",
+              "x": "0.3360",
+              "y": "0.4617"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "117",
+              "title": "Ocean Sales Ltd.",
+              "description": "Booth #138",
+              "category": "vendors",
+              "x": "0.4427",
+              "y": "0.2550"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "118",
+              "title": "Ocean Sales Ltd.",
+              "description": "Booth #141",
+              "category": "vendors",
+              "x": "0.4360",
+              "y": "0.2283"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "119",
+              "title": "Ocean Sales Ltd.",
+              "description": "Booth #229",
+              "category": "vendors",
+              "x": "0.5143",
+              "y": "0.2750"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "120",
+              "title": "Ocean Sales Ltd.",
+              "description": "Booth #251",
+              "category": "vendors",
+              "x": "0.3460",
+              "y": "0.2750"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "121",
+              "title": "Ocean Sales Ltd.",
+              "description": "Booth #363",
+              "category": "vendors",
+              "x": "0.2510",
+              "y": "0.3200"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "122",
+              "title": "Ocean Sales Ltd.",
+              "description": "Booth #737",
+              "category": "vendors",
+              "x": "0.4460",
+              "y": "0.5067"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "123",
+              "title": "Ontario Cabinet Beds",
+              "description": "Booth #131",
+              "category": "vendors",
+              "x": "0.5210",
+              "y": "0.2267"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "124",
+              "title": "Paint Core Finishes",
+              "description": "Booth #620",
+              "category": "vendors",
+              "x": "0.5743",
+              "y": "0.4900"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "125",
+              "title": "Pi Electronics Inc.",
+              "description": "Booth #412",
+              "category": "vendors",
+              "x": "0.6477",
+              "y": "0.3950"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "126",
+              "title": "PrimeService Insurance",
+              "description": "Booth #716",
+              "category": "vendors",
+              "x": "0.6227",
+              "y": "0.5367"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "127",
+              "title": "Probuilt Design + Build",
+              "description": "Booth #636",
+              "category": "vendors",
+              "x": "0.4477",
+              "y": "0.4850"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "128",
+              "title": "Protege Casual vendors Inc.",
+              "description": "Booth #302",
+              "category": "vendors",
+              "x": "0.7093",
+              "y": "0.3583"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "129",
+              "title": "QBS Architects Inc.",
+              "description": "Booth #646",
+              "category": "vendors",
+              "x": "0.2993",
+              "y": "0.4883"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "130",
+              "title": "Ranna Renovations",
+              "description": "Booth #647",
+              "category": "vendors",
+              "x": "0.3777",
+              "y": "0.4617"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "131",
+              "title": "Real Estate Council of Ontario",
+              "description": "Booth #260",
+              "category": "vendors",
+              "x": "0.2693",
+              "y": "0.3033"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "132",
+              "title": "Redfern Enterprises Ltd.",
+              "description": "Booth #128",
+              "category": "vendors",
+              "x": "0.5327",
+              "y": "0.2567"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "133",
+              "title": "Redfern Enterprises Ltd.",
+              "description": "Booth #153",
+              "category": "vendors",
+              "x": "0.3443",
+              "y": "0.2267"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "134",
+              "title": "Redfern Enterprises Ltd.",
+              "description": "Booth #156",
+              "category": "vendors",
+              "x": "0.2993",
+              "y": "0.2567"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "135",
+              "title": "Redfern Enterprises Ltd.",
+              "description": "Booth #710",
+              "category": "vendors",
+              "x": "0.6643",
+              "y": "0.5350"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "136",
+              "title": "Redfern Enterprises Ltd.",
+              "description": "Booth #756",
+              "category": "vendors",
+              "x": "0.3027",
+              "y": "0.5333"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "137",
+              "title": "Renewal by Andersen of Greater Toronto",
+              "description": "Booth #500",
+              "category": "vendors",
+              "x": "0.7143",
+              "y": "0.4500"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "138",
+              "title": "Reno and Décor Magazine ",
+              "description": "Booth #354",
+              "category": "vendors",
+              "x": "0.2993",
+              "y": "0.3483"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "139",
+              "title": "RenoMark (BILD)",
+              "description": "Booth #542",
+              "category": "vendors",
+              "x": "0.3910",
+              "y": "0.4483"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "140",
+              "title": "The Renovators of Canada",
+              "description": "Booth #127",
+              "category": "vendors",
+              "x": "0.5543",
+              "y": "0.2283"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "141",
+              "title": "Rhineland Cutlery",
+              "description": "Booth #742",
+              "category": "vendors",
+              "x": "0.4093",
+              "y": "0.5367"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "142",
+              "title": "Ridgedown Construction",
+              "description": "Booth #428",
+              "category": "vendors",
+              "x": "0.5160",
+              "y": "0.3967"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "143",
+              "title": "Rogers Smart Home Monitoring",
+              "description": "Booth #554",
+              "category": "vendors",
+              "x": "0.3010",
+              "y": "0.4433"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "144",
+              "title": "Scandia Canada Ltd.",
+              "description": "Booth #206",
+              "category": "vendors",
+              "x": "0.7027",
+              "y": "0.3117"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "145",
+              "title": "Segun Water Systems",
+              "description": "Booth #512",
+              "category": "vendors",
+              "x": "0.6427",
+              "y": "0.4417"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "146",
+              "title": "Simply Smart Home",
+              "description": "Booth #806",
+              "category": "vendors",
+              "x": "0.7677",
+              "y": "0.3050"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "147",
+              "title": "Skona Design Inc.",
+              "description": "Booth #332",
+              "category": "vendors",
+              "x": "0.4760",
+              "y": "0.3517"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "148",
+              "title": "Sleep Country Canada",
+              "description": "Booth #100",
+              "category": "vendors",
+              "x": "0.6710",
+              "y": "0.2667"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "149",
+              "title": "Sleep Country Canada",
+              "description": "Booth #108",
+              "category": "vendors",
+              "x": "0.6377",
+              "y": "0.2633"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "150",
+              "title": "Snowventco",
+              "description": "Booth #124",
+              "category": "vendors",
+              "x": "0.5193",
+              "y": "0.2567"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "151",
+              "title": "Spartan Fitness",
+              "description": "Booth #614",
+              "category": "vendors",
+              "x": "0.6143",
+              "y": "0.4967"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "152",
+              "title": "SPIN AND WEAVE",
+              "description": "Booth #254",
+              "category": "vendors",
+              "x": "0.3177",
+              "y": "0.3050"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "153",
+              "title": "Straw Hat Restoration Inc.",
+              "description": "Booth #514",
+              "category": "vendors",
+              "x": "0.6127",
+              "y": "0.4450"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "154",
+              "title": "Stream Filtration",
+              "description": "Booth #125",
+              "category": "vendors",
+              "x": "0.5710",
+              "y": "0.2283"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "155",
+              "title": "Superior Meats & Bakery",
+              "description": "Booth #134",
+              "category": "vendors",
+              "x": "0.4692",
+              "y": "0.2589"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "156",
+              "title": "Svea Kitchens",
+              "description": "Booth #725",
+              "category": "vendors",
+              "x": "0.5500",
+              "y": "0.5046"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "157",
+              "title": "Svea Kitchens",
+              "description": "Booth #736",
+              "category": "vendors",
+              "x": "0.4557",
+              "y": "0.5334"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "158",
+              "title": "TA Appliances & Barbecues",
+              "description": "Booth #570",
+              "category": "vendors",
+              "x": "0.2370",
+              "y": "0.4678"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "159",
+              "title": "TA Appliances & Barbecues",
+              "description": "Booth #764",
+              "category": "vendors",
+              "x": "0.2422",
+              "y": "0.5373"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "160",
+              "title": "TA Appliances & Barbecues",
+              "description": "Booth #766",
+              "category": "vendors",
+              "x": "0.2383",
+              "y": "0.5347"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "161",
+              "title": "Tarion Warranty Corporation",
+              "description": "Booth #629",
+              "category": "vendors",
+              "x": "0.5172",
+              "y": "0.4588"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "162",
+              "title": "Taylor Chopping Boards",
+              "description": "Booth #145",
+              "category": "vendors",
+              "x": "0.4054",
+              "y": "0.2258"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "163",
+              "title": "Telus",
+              "description": "Booth #333",
+              "category": "vendors",
+              "x": "0.4838",
+              "y": "0.3172"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "164",
+              "title": "Three Brothers Landscaping Inc",
+              "description": "Booth #171",
+              "category": "vendors",
+              "x": "0.3771",
+              "y": "0.1936"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "165",
+              "title": "Titanium Exclusive Cookware Inc.",
+              "description": "Booth #746",
+              "category": "vendors",
+              "x": "0.3797",
+              "y": "0.5347"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "166",
+              "title": "TMC Restoration",
+              "description": "Booth #252",
+              "category": "vendors",
+              "x": "0.3300",
+              "y": "0.3027"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "167",
+              "title": "Tomdea Construction & Design",
+              "description": "Booth #237",
+              "category": "vendors",
+              "x": "0.4442",
+              "y": "0.2726"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "168",
+              "title": "Toronto Contracting",
+              "description": "Booth #113",
+              "category": "vendors",
+              "x": "0.6618",
+              "y": "0.2248"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "169",
+              "title": "The Toronto Star",
+              "description": "Booth #655",
+              "category": "vendors",
+              "x": "0.3045",
+              "y": "0.4594"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "170",
+              "title": "Triple A Trading",
+              "description": "Booth #142",
+              "category": "vendors",
+              "x": "0.4094",
+              "y": "0.2557"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "171",
+              "title": "True North Tiny Homes",
+              "description": "Booth #170",
+              "category": "vendors",
+              "x": "0.3986",
+              "y": "0.1926"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "172",
+              "title": "truLOCAL",
+              "description": "Booth #722",
+              "category": "vendors",
+              "x": "0.5823",
+              "y": "0.5324"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "173",
+              "title": "The Tub Guys",
+              "description": "Booth #121",
+              "category": "vendors",
+              "x": "0.6006",
+              "y": "0.2267"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "174",
+              "title": "Tuff Spas",
+              "description": "Booth #730",
+              "category": "vendors",
+              "x": "0.4867",
+              "y": "0.5364"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "175",
+              "title": "Unidem Sales Inc.",
+              "description": "Booth #135",
+              "category": "vendors",
+              "x": "0.4853",
+              "y": "0.2253"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "176",
+              "title": "Unidem Sales Inc.",
+              "description": "Booth #724",
+              "category": "vendors",
+              "x": "0.5575",
+              "y": "0.5364"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "177",
+              "title": "Unparalleled Paint",
+              "description": "Booth #233",
+              "category": "vendors",
+              "x": "0.4875",
+              "y": "0.2727"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "178",
+              "title": "Upper Canada Specialty Hardware Limited",
+              "description": "Booth #530",
+              "category": "vendors",
+              "x": "0.5002",
+              "y": "0.4411"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "179",
+              "title": "Vangarde Cabinet Design & Factory Inc.",
+              "description": "Booth #460",
+              "category": "vendors",
+              "x": "0.2589",
+              "y": "0.4033"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "180",
+              "title": "Viktoria Professional Movers",
+              "description": "Booth #355",
+              "category": "vendors",
+              "x": "0.3153",
+              "y": "0.3187"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "181",
+              "title": "Vipeq Canada",
+              "description": "Booth #532",
+              "category": "vendors",
+              "x": "0.4724",
+              "y": "0.4415"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "182",
+              "title": "Vitality Vacations Living Stone Golf Resort",
+              "description": "Booth #257",
+              "category": "vendors",
+              "x": "0.2995",
+              "y": "0.2744"
+            ,         "pin": "pin-dot" },
+    
+            {
+              "id": "183",
+              "title": "Vitamix Corporation",
+              "description": "Booth #159",
+              "category": "vendors",
+              "x": "0.2814",
+              "y": "0.2276",
+              "pin": "pin-dot"
+            }
+
+      ]
+    }
+  ]
+}
+

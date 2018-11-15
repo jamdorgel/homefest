@@ -1,0 +1,809 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css" media="all" />
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="assets/libs/fontawesome/css/font-awesome.min.css" media="all" />
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="assets/libs/maginificpopup/magnific-popup.css" media="all" />
+
+    <!-- Time Circle -->
+    <link rel="stylesheet" href="assets/libs/timer/TimeCircles.css" media="all" />
+
+    <!-- OWL CAROUSEL CSS -->
+    <link rel="stylesheet" href="assets/libs/owlcarousel/owl.carousel.min.css" media="all" />
+    <link rel="stylesheet" href="assets/libs/owlcarousel/owl.theme.default.min.css" media="all" />
+
+    <!-- GOOGLE FONT -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:400,700%7cLora:400,400i,700,700i" />
+
+    <link rel="stylesheet" href="assets/libs/animate/animate.css" media="all" />
+
+    <!-- MASTER  STYLESHEET  -->
+    <link id="lgx-master-style" rel="stylesheet" href="assets/css/style-default.css" media="all" />
+
+    <!-- MODERNIZER CSS  -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <style>
+        .line-separator{
+      
+      height:20px;
+      background:#ef4038;
+      
+      border-bottom:8px solid #ef4038;
+      
+      
+      }
+      .logo{
+      background:white;
+      }
+      a{
+      color: red;
+      }
+      a:hover {
+          color: black;
+      }
+      
+      #leaves {position:relative;top:-50px;width:100%;text-align: right;}
+      
+      #leaves i {
+          display: inline-block;
+          width: 200px;
+          height: 150px;
+          background: linear-gradient(to bottom right, #309900, #005600);
+          transform: skew(20deg);
+          border-radius: 5% 40% 70%;
+          box-shadow: inset 0px 0px 1px #222;
+          border: 1px solid #333;
+          z-index: 1;
+          -webkit-animation: falling 5s 0s infinite;
+      }
+      
+      #leaves i:nth-of-type(2n) { -webkit-animation: falling2 5s 0s infinite; }
+      #leaves i:nth-of-type(3n) { -webkit-animation: falling3 5s 0s infinite; }
+      
+      #leaves i:before {
+        position: absolute;
+        content: '';
+        top: 117px;
+        right: 9px;
+        height: 27px;
+        width: 32px;
+        transform: rotate(49deg);
+        border-radius: 0% 15% 15% 0%;
+        border-top: 1px solid #222;
+        border-bottom: 1px solid #222;
+        border-left: 0px solid #222;
+        border-right: 1px solid #222;
+        background: linear-gradient(to right, rgba(0,100,0,1), #005600);
+        z-index: 1;
+      }
+      
+      #leaves i:after {
+        content: '';
+        height: 125px;
+        width: 10px;
+        background: linear-gradient(to right, rgba(0,0,0,.15), rgba(0,0,0,0));
+        display: block;
+        transform: rotate(125deg);
+        position: absolute;
+        left: 85px;
+        border-radius:50%;
+      }
+      
+      
+      #leaves i:nth-of-type(n)    { height:23px; width:30px; }
+      #leaves i:nth-of-type(n):before { width:7px; height:5px; top:17px; right:1px; }
+      #leaves i:nth-of-type(n):after { width:2px; height:17px; left: 12px; top:0px; }
+      
+      #leaves i:nth-of-type(2n+1)    { height:11px; width:16px; }
+      #leaves i:nth-of-type(2n+1):before { width:4px; height:3px; top:7px; right:0px; }
+      #leaves i:nth-of-type(2n+1):after { width:2px; height:6px; left: 5px; top:1px; }
+      
+      #leaves i:nth-of-type(3n+2)  { height:17px; width:23px; }
+      #leaves i:nth-of-type(3n+2):before  { height:4px; width:4px; top:12px; right:1px; }
+      #leaves i:nth-of-type(3n+2):after  { height:10px; width:2px; top:1px; left:8px; }
+      
+      #leaves i:nth-of-type(n)   { -webkit-animation-delay: 1.9s;}
+      #leaves i:nth-of-type(2n)  { -webkit-animation-delay: 3.9s;}
+      #leaves i:nth-of-type(3n)  { -webkit-animation-delay: 2.3s;}
+      #leaves i:nth-of-type(4n)  { -webkit-animation-delay: 4.4s;}
+      #leaves i:nth-of-type(5n)  { -webkit-animation-delay: 5s;  }
+      #leaves i:nth-of-type(6n)  { -webkit-animation-delay: 3.5s;}
+      #leaves i:nth-of-type(7n)  { -webkit-animation-delay: 2.8s;}
+      #leaves i:nth-of-type(8n)  { -webkit-animation-delay: 1.5s;}
+      #leaves i:nth-of-type(9n)  { -webkit-animation-delay: 3.3s;}
+      #leaves i:nth-of-type(10n) { -webkit-animation-delay: 2.5s;}
+      #leaves i:nth-of-type(11n) { -webkit-animation-delay: 1.2s;}
+      #leaves i:nth-of-type(12n) { -webkit-animation-delay: 4.1s;}
+      #leaves i:nth-of-type(13n) { -webkit-animation-delay: 1s;  }
+      #leaves i:nth-of-type(14n) { -webkit-animation-delay: 4.7s;}
+      #leaves i:nth-of-type(15n) { -webkit-animation-delay: 3s;  }
+      
+      #leaves i:nth-of-type(n)    { background: linear-gradient(to bottom right, #309900, #005600); }
+      #leaves i:nth-of-type(2n+2)  { background: linear-gradient(to bottom right, #5e9900, #2b5600); }
+      #leaves i:nth-of-type(4n+1)  { background: linear-gradient(to bottom right, #990, #564500); }
+      
+      #leaves i:nth-of-type(n)    { opacity: .7;}
+      #leaves i:nth-of-type(3n+1)  { opacity: .5;}
+      #leaves i:nth-of-type(3n+2)  { opacity: .3;}
+      
+      #leaves i:nth-of-type(n)    {transform: rotate(180deg);}
+      
+      
+      #leaves i:nth-of-type(n) { -webkit-animation-timing-function:ease-in-out;}
+      
+      @-webkit-keyframes falling {
+          
+          0% {
+              -webkit-transform:
+                  translate3d(300,0,0)
+                  rotate(0deg);
+          }
+          
+          100% {
+              -webkit-transform:
+                  translate3d(-350px,700px,0)
+                  rotate(90deg);
+              opacity: 0;
+          }
+      }
+      
+      @-webkit-keyframes falling3 {
+           0% {
+              -webkit-transform:
+                  translate3d(0,0,0)
+                  rotate(-20deg);
+          }
+          
+          100% {
+              -webkit-transform:
+                  translate3d(-230px,640px,0)
+                  rotate(-70deg);
+              opacity: 0;
+          }
+      }
+      
+      @-webkit-keyframes falling2 {
+           0% {
+              -webkit-transform:
+                  translate3d(0,0,0)
+                  rotate(90deg);
+          }
+          
+          100% {
+              -webkit-transform:
+                  translate3d(-400px,680px,0)
+                  rotate(0deg);
+              opacity: 0;
+          }
+      }
+      .lgx-single-tab{
+          margin-bottom: 50px;
+          
+      }
+      .time{
+        font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:white;
+      }
+      p{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5em;
+      }
+      .lgx-schedule .lgx-tab .lgx-single-tab  {
+    background: #739d47ad;
+    border-radius: 4px;
+    padding: 2rem 1.6rem;
+}
+.titleT{
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: white;
+}
+.lgx-schedule .lgx-tab .lgx-single-tab:nth-of-type(even) {
+  background: #739d47ad;
+}
+.lgx-schedule .lgx-tab .lgx-single-tab:nth-of-type{
+    background: #739d47ad;
+
+}
+
+.lgx-schedule .lgx-tab .lgx-single-tab:hover {
+    background: #42bd41d4;
+    color: #fff;
+    border-radius: 0;
+    }
+
+/* weeds Falling */
+    .dot{
+  width:35px;
+  height:35px;
+  position:absolute;
+  background: url(./imgs/mjfall.png);
+  background-size: 100% 100%;
+}
+#container420 {width:auto; height:auto; }
+
+
+
+
+#DiacoDesignLink,#pens{
+  color: #fff;
+}
+
+      </style>
+</head>
+
+<body style="
+            background: url(./imgs/Newweed.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            ">
+     <div id="container420" style=" position:absolute; background-attachment: fixed;">
+                    </div>
+
+    <!-- <div id="leaves" style="background-attachment: fixed; position: absolute;">
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+    </div> -->
+ 
+    <section class="container py-4" style="color:black; 
+" >
+          
+        <section>
+                
+            <div id="lgx-schedule" class="lgx-schedule">
+                <div class="lgx-inner">
+                    <div class="container">
+                            <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="lgx-heading-area">
+                                            <h2 class="lgx-heading" style="color: whitesmoke;">
+                                                <span class="back-heading" style="color: whitesmoke;"><img style="width:170px;" src="imgs/marijuanaG.png" alt="" srcset=""></span>
+                                                <span class="heading" style="color: whitesmoke;">Seminar Speakers</span>
+                                            </h2>
+                                            <!-- <p class="text" style="color: whitesmoke;">
+                                                Seminar Schedule
+                                            </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                        <div class="row"></div>
+                        <div class="col-xs-12">
+                            <div class="lgx-tab">
+                                <div id="day1" class="tab-pane fade in active" style="margin-bottom:100px;">
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-4">
+                                                <div class="time-area">
+                                                    <img src="./imgs/Speakers/Jonathan-Hirsh.jpg" alt="" srcset="">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h4 class="time">JONATHAN HIRSH<h4>
+                                                            <h4 class="titleT">The Education Station<h4>
+                                                                    <p>Jonathan is a well-known advocate and influencer
+                                                                        in the cannabis industry and he will be giving
+                                                                        a daily seminar on Cannabis for the beginner.
+                                                                        Explaining the difference between Indica and
+                                                                        Sativa, the various ways to consume cannabis,
+                                                                        and what all the different terms mean Jonathan
+                                                                        can take you from ‘zero to sixty’ in the
+                                                                        cannabis world. And teach you how to roll a
+                                                                        proper joint!</p>
+                                                                    <p></p>
+                                                </div>
+                                                <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-4">
+                                                <div class="time-area">
+                                                    <img src="./imgs/Speakers/AlexRea.jpg" alt="" srcset="" style="
+                                                                            
+                                                                        ">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h4 class="time">ALEX REA<h4>
+                                                            <h4 class="titleT">Homegrown Hydroponics<h4>
+                                                                    <p style="
+                                                                                    font-size: 14px;
+                                                                                ">Alex
+                                                                        Rea is Vice President of Homegrown Hydroponics
+                                                                        Inc and co-founder of Phytomedical Cannabis
+                                                                        Consulting. Homegrown , a Toronto based company
+                                                                        engaged in hydroponic equipment supply is a
+                                                                        leader in the industry, engaged in imports,
+                                                                        wholesale supply, retailing and consulting for
+                                                                        large scale legal cannabis growing. With
+                                                                        Phytomedical, Alex assists clients seek legal
+                                                                        access and information on buying, using and
+                                                                        growing cannabis. Alex is the second
+                                                                        generation, with a unique perspective of the
+                                                                        cannabis industry and has a passion for
+                                                                        learning how this plant will affect Canadian
+                                                                        Industry.</p>
+                                                                    <p></p>
+                                                </div>
+                                                <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-4">
+                                                <div class="time-area">
+                                                    <img src="./imgs/Speakers/Jawad-Skinieh.jpg" alt="" srcset="">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h4 class="time">JAWAD SKINIEH, MASTER GROWER<h4>
+                                                            <h4 class="titleT">Sun Parlour Growers<h4>
+                                                                    <p>Mr. Skieneh has over 8 years of growing
+                                                                        experience in greenhouse production, cloning,
+                                                                        and strain selection including a year running a
+                                                                        facility in Humboldt County, the center of
+                                                                        excellence for cannabis cultivation in
+                                                                        California.</p>
+                                                                    <p></p>
+                                                </div>
+                                                <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-4">
+                                                <div class="time-area">
+                                                    <img src="./imgs/Speakers/Paul-Raymond.jpg" alt="" srcset="">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h4 class="time" style="font-size: 19px;">PAUL RAYMOND - SMALL
+                                                        BUSINESS IN CANNABIS INDUSTRY, BASICS OF GROWING<h4>
+                                                            <h4 class="titleT">Founder, Back Room Grow<h4>
+                                                                    <p style="
+                                                                                            font-size: 14px;
+                                                                                        ">Paul
+                                                                        is a graduate of Ryerson in Chemical
+                                                                        Engineering Technology, with an employment
+                                                                        background mostly in Environmental and Quality
+                                                                        Management in Automotive Parts Manufacturing.He
+                                                                        has started a small a successful business
+                                                                        previously, in chemical (electroplating)
+                                                                        supply. He has now has ventured into the
+                                                                        cannabis field in founding Back Room Grow to
+                                                                        help new and advanced growers have more success
+                                                                        and joy in their gardens. Paul is an avid ACMRP
+                                                                        grower with a beautiful garden he is very proud
+                                                                        of! Also a lover of rescue dogs, the outdoors
+                                                                        and hockey in general.</p>
+                                                                    <p></p>
+                                                </div>
+                                                <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-4">
+                                                <div class="time-area">
+                                                    <img src="./imgs/Speakers/NovackCrocker.jpg" alt="" srcset="">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h4 class="time">ELLEN NOVACK AND PAT CROCKER<h4>
+                                                            <h4 class="titleT">Best-selling Authors<h4>
+                                                                    <p style="
+                                                                                                font-size: 13px;
+                                                                                            ">Culinary
+                                                                        herbalist, Pat Crocker is the author of 22
+                                                                        health cookbooks including The Healing Herbs
+                                                                        Cookbook and The Juicing Bible. She has 1.4
+                                                                        million books in print and has earned several
+                                                                        awards including the Gertrude H Foster Award
+                                                                        from the Herb Society of America for Excellence
+                                                                        in Herbal Literature.Ellen Novack and Pat
+                                                                        Crocker have written a revolutionary Cannabis
+                                                                        cookbook and guide. Their intention is to help
+                                                                        you make informed decisions about consuming
+                                                                        Cannabis, and to ensure safe experimentation to
+                                                                        improve your health. Healing Cannabis Edibles
+                                                                        offers accurate information for using Cannabis,
+                                                                        specific foods and other power herbs to address
+                                                                        eight medical conditions: Appetite Loss,
+                                                                        Athletic Enhancement, Anxiety, Epilepsy,
+                                                                        Inflammation, Memory, Pain and Sleep.</p>
+                                                                    <p></p>
+                                                </div>
+                                                <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-4">
+                                                <div class="time-area">
+                                                    <img src="./imgs/Speakers/Delta9Chefs.jpg" alt="" srcset="">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h4 class="time">ANDREW, KYLE, & MATT<h4>
+                                                            <h4 class="titleT">Delta9 Chefs<h4>
+                                                                    <p style="
+                                                                                                    font-size: 17px;
+                                                                                                ">Delta9Chefs
+                                                                        was founded little over a year ago with the
+                                                                        full intent to educate the current and new
+                                                                        users on cannabis edibles and the
+                                                                        risks/benefits to safe consumption with
+                                                                        legalization very close. We work with all types
+                                                                        of patients and soon to be recreational users
+                                                                        to help consume cannabis in a healthier way.
+                                                                        When ingesting cannabis, the user doesn’t have
+                                                                        to worry about the risks effecting one’s
+                                                                        airways and lungs resulting in a safer way of
+                                                                        consuming THC/CBD.
+
+                                                                    </p>
+                                                                    <p></p>
+                                                </div>
+                                                <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-4">
+                                                <div class="time-area">
+                                                    <img src="./imgs/Speakers/Katie.jpg" alt="" srcset="">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h4 class="time">PANEL DISCUSSION: HOSTED BY KATIE PRINGLE
+                                                        CANNDORA PRESENTS<h4>
+                                                            <h4 class="titleT">WOMEN & CANNABIS: WHAT'S OUT THERE FOR
+                                                                ME?<h4>
+                                                                    <p>Join Canndora.com and our guest experts to learn
+                                                                        more about cannabis products and brands made
+                                                                        for women. Our educational and engaging
+                                                                        conversation will cover:
+                                                                        1. What’s available online now? (THC & CBD
+                                                                        basics)
+                                                                        2. Different ways to consume and associated
+                                                                        accessories (oil, vapes, pipes, bongs, oh-my)
+                                                                        3. What’s next for women focused products and
+                                                                        brands (the beauty and wellness category is in
+                                                                        for a shift!)</p>
+                                                                    <p></p>
+                                                </div>
+                                                <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- KNOW YOUR RIGHTS
+
+                                                                                            Moderated by WeedStock's Nikita Gullion
+
+                                                                                            PANEL: -->
+
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-4">
+                                                <div class="time-area">
+                                                    <img src="./imgs/Speakers/Annamaria.jpg" alt="" srcset="">
+                                                </div>
+                                            </div>
+
+
+
+
+
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h4 class="time">ANNAMARIA ENENAJOR<h4>
+                                                            <h4 class="titleT">Cannabis Amnesty<h4>
+                                                                    <p style="
+                                                                                                            font-size: 14px;
+                                                                                                        ">Annamaria
+                                                                        Enenajor is a partner at Ruby, Shiller &
+                                                                        Enenajor, Barristers, recently named one of
+                                                                        Canada’s Top 10 criminal law boutiques by
+                                                                        Canadian Lawyer Magazine. She practices
+                                                                        criminal defence, constitutional and regulatory
+                                                                        law. Annamaria vigorously defends her clients
+                                                                        in criminal matters and provides comprehensive
+                                                                        and strategic legal advice related to criminal
+                                                                        and regulatory law. Following a clerkship at
+                                                                        the Supreme Court of Canada, Ms. Enenajor began
+                                                                        her legal career in the New York office of a
+                                                                        multinational law firm, where she focused on
+                                                                        defending government enforcement actions and
+                                                                        conducting internal investigations into
+                                                                        allegations of corruption and bribery. She is a
+                                                                        strong public advocate for cannabis
+                                                                        decriminalization and is the founder and
+                                                                        Campaign Director of the Campaign for Cannabis
+                                                                        Amnesty. She frequently writes, lectures and
+                                                                        consults on how to create a cannabis
+                                                                        legalization regime that is equitable and
+                                                                        inclusive for all Canadians. Follow her on
+                                                                        Twitter: @AEnenajor.</p>
+                                                                    <p></p>
+                                                </div>
+                                                <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-4">
+                                                <div class="time-area">
+                                                    <img src="./imgs/Speakers/AndyLee.jpg" alt="" srcset="">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h4 class="time">ANDY LEE<h4>
+                                                            <h4 class="titleT">NORML<h4>
+                                                                    <p style="font-size: 17px;">Andy Lee is a Fine Arts
+                                                                        graduate from York University with an extensive
+                                                                        background in advertising and marketing
+                                                                        experience. As a cannabis advocate, Andy has
+                                                                        worked on numerous local grassroots initiatives
+                                                                        in pursuit of patient protections, fair access
+                                                                        and destigmatization. Andy has worked with
+                                                                        NORML Canada for the last several years in
+                                                                        Ontario and is the Communications Director for
+                                                                        the organization.</p>
+                                                                    <p></p>
+                                                </div>
+                                                <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-4">
+                                                <div class="time-area">
+                                                    <img src="./imgs/Speakers/FarrellMiller.jpg" alt="" srcset="">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h4 class="time">FARRELL MILLER<h4>
+                                                            <h4 class="titleT">NORML<h4>
+                                                                    <p style="font-size: 16px;">Farrell Miller is a
+                                                                        Cannabis industry consultant and board member
+                                                                        at NORML Canada. She holds a law degree from
+                                                                        UBC and a bachelor’s degree from the University
+                                                                        of Guelph. She has assisted lawyers Paul Lewin
+                                                                        and Jack Lloyd on constitutional challenges to
+                                                                        the ACMPR and CDSA, and is an expected member
+                                                                        of the Law Society of Ontario for June 2019.
+                                                                        Currently, Farrell helps clients apply for
+                                                                        Cannabis retail licenses in Ontario, and
+                                                                        navigate the heavily regulated supply chain.</p>
+                                                                    <p></p>
+                                                </div>
+                                                <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-4">
+                                                <div class="time-area">
+                                                    <img src="./imgs/Speakers/Caryma-Sa-d.jpg" alt="" srcset="">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h4 class="time">CARYMA SA’D<h4>
+                                                            <h4 class="titleT">Founder, Sadvocacy<h4>
+                                                                    <p style="font-size: 16px;">Caryma Sa’d is a
+                                                                        budding lawyer in the cannabis space. She is
+                                                                        the founder and principal of SADVOCACY
+                                                                        Professional Corporation. The practice focuses
+                                                                        on criminal and landlord/tenant law. The firm
+                                                                        works closely with cannabis activists,
+                                                                        educators, and entrepreneurs, as well as
+                                                                        individual patients and recreational consumers.
+                                                                        Caryma’s perspective on the intersection of
+                                                                        law, politics, and racism underlying cannabis
+                                                                        prohibition makes her a strong proponent of
+                                                                        legalization and amnesty.</p>
+                                                                    <p></p>
+                                                </div>
+                                                <!--//.single tab-->
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div> <!-- here is day 2-->
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!-- end here -->
+                <!--//.ROW-->
+            </div>
+            <!-- //.CONTAINER -->
+            </div>
+            <!-- //.INNER -->
+            </div>
+        </section>
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+
+        <script src="assets/js/TweenMax.min.js"></script>
+        <script>
+            var falling = true;
+
+            TweenLite.set("#container420", {
+                perspective: 600
+            })
+            TweenLite.set("img", {
+                xPercent: "-50%",
+                yPercent: "auto"
+                
+            })
+
+            var total = 30;
+            var container420 = document.getElementById("container420"),
+                w = window.innerWidth,
+                h = window.innerHeight;
+
+            for (i = 0; i < total; i++) {
+                var Div = document.createElement('div');
+                TweenLite.set(Div, {
+                    attr: {
+                        class: 'dot'
+                    },
+                    x: R(0, w),
+                    y: R(-200, -150),
+                    z: R(-200, 200)
+                });
+                container420.appendChild(Div);
+                animm(Div);
+            }
+
+            function animm(elm) {
+                TweenMax.to(elm, R(6, 15), {
+                    y: h + 100,
+                    ease: Linear.easeNone,
+                    repeat: -1,
+                    delay: -15
+                });
+                TweenMax.to(elm, R(4, 8), {
+                    x: '+=100',
+                    rotationZ: R(0, 180),
+                    repeat: -1,
+                    yoyo: true,
+                    ease: Sine.easeInOut
+                });
+                TweenMax.to(elm, R(2, 8), {
+                    rotationX: R(0, 360),
+                    rotationY: R(0, 360),
+                    repeat: -1,
+                    yoyo: true,
+                    ease: Sine.easeInOut,
+                    delay: -5
+                });
+            };
+
+            function R(min, max) {
+                return min + Math.random() * (max - min)
+            };
+        </script>
+
+
+        <!--//.LGX SITE CONTAINER-->
+        <!-- *** ADD YOUR SITE SCRIPT HERE *** -->
+        <!-- JQUERY  -->
+        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+        <!-- BOOTSTRAP JS  -->
+        <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+
+
+        <script src="assets/libs/jquery.smooth-scroll.js"></script>
+
+        <!-- SKILLS SCRIPT  -->
+        <script src="assets/libs/jquery.validate.js"></script>
+
+        <!-- adding magnific popup js library -->
+        <script type="text/javascript" src="assets/libs/maginificpopup/jquery.magnific-popup.min.js"></script>
+
+        <!-- Owl Carousel  -->
+        <script src="assets/libs/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- COUNTDOWN   -->
+        <script src="assets/libs/countdown.js"></script>
+        <script src="assets/libs/timer/TimeCircles.js"></script>
+
+        <!-- SMOOTH SCROLL -->
+        <script src="assets/libs/jquery.smooth-scroll.min.js"></script>
+        <script src="assets/libs/jquery.easing.min.js"></script>
+
+        <!-- type js -->
+        <script src="assets/libs/typed/typed.min.js"></script>
+
+        <!-- CUSTOM SCRIPT  -->
+        <script src="assets/js/custom.script.js"></script>
+
+       
+
+
+</body>
+
+</html>
